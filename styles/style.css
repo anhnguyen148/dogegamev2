@@ -1,0 +1,96 @@
+body {
+    height: 1200px;;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:rgb(100, 4, 4) 
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#computerText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 450px;
+    position: absolute;
+    left: 10px;
+    top: 790px;
+    font-size: larger;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3px solid #613c08; 
+    padding: 35px;
+    z-index: -1;
+}
+
+#counter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #46166b;
+    width: 500px;
+    position: absolute;
+    left: 600px;
+    top: 560px;
+    font-size: larger;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3px solid #46166b; 
+    padding: 35px;
+    z-index: -1;
+}
+
+#dogememe { 
+    width: 400px; 
+    margin: 10px 10px 10px 0;
+    position: absolute;
+    left: 60px;
+    top: 190px;
+}
+
+#dropbox-new {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+    width: 400px; 
+    height: 350px; 
+    padding: 10px 20px;
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+    z-index: -1;
+}
+
+#dropbox-old {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+    width: 400px; 
+    height: 350px; 
+    padding: 10px 20px;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    z-index: -1;
+}
+
+#refresh {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 400px;
+    top: 590px;
+    font-size: larger;
+}
+
+#rock, #scissors, #paper {
+    width: 300px;
+    position: relative;
+    top: 650px;
+    left: 500px
+}

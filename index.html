@@ -1,0 +1,64 @@
+<!--
+    * bravo => charlie improvement v2.0
+    * CIS 376
+    * Description: 
+    *     - Rock Paper Scissors game updated
+    *     - Add 1 more dropbox for alert
+-->
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Tram Anh Nguyen - CHARLIE Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <h2><strong>How much wow? v2.0</strong></h2>
+    <h3><strong>CLICK</strong> or <strong>DRAG</strong> the Doge meme to check!</h3>
+    <!--add and set id for meme-->
+    <img 
+        id="dogememe"
+        alt="doge-meme"
+        src="assets/Doge-meme.jpg"
+        />
+        
+    <!--add place to drop the meme-->
+    <div id="dropbox-new" class="ui-widget-header"><p>New Drop Box</p></div>
+    <div id="dropbox-old" class="ui-widget-header"><p>Old Drop Box</p></div>
+
+    <!--add counter when clicking on meme-->
+    <strong id="counter">No wow (hint: Click on meme).</strong>
+
+    <!-- add Rock Paper Scissors Mini Game-->
+    <div id="computerText">
+        <h2>Rock Paper Scissors Minigame</h2>
+    </div>
+    <img 
+        id="rock"
+        alt="rockimg"
+        src="assets/rock.png"
+        />
+    <img 
+        id="paper"
+        alt="paperimg"
+        src="assets/paper.png"
+        />
+    <img 
+        id="scissors"
+        alt="scissorsimg"
+        src="assets/scissors.png"
+        />
+    <button class="btn-outline-primary" id="refresh"><strong>Refresh</strong></button>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
